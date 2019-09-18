@@ -1,0 +1,25 @@
+.offer-row {
+    display: flex; 
+    border-bottom: 1px solid rgba(184, 179, 179, 0.56); 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    flex-wrap: wrap; 
+}
+
+.offer-row .price-button-wrapper {
+    display: flex;
+    align-items: center; 
+}
+
+@media(max-width: 1015px){
+        .offer-row {
+            flex-direction: column;
+        }
+        .offer-row .price-button-wrapper {
+            width: 100%;
+            padding: 1em 0 1em 0;
+            border-top: 1px solid rgba(184, 179, 179, 0.26); 
+            height: 50%;
+        }
+    }

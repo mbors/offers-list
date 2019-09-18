@@ -1,0 +1,13 @@
+.amount {
+    font-size: 1.1em;
+    font-weight: 700; 
+    margin-left: auto; 
+    font-family: --webkit-body; 
+}
+
+@media(max-width: 1015px){
+    .amount {
+        margin-right: auto;
+        margin-left: 1em; 
+    }
+}

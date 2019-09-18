@@ -1,0 +1,14 @@
+.main-button {
+    width: 14em; 
+    height: 4em;
+    background-color: #FFCD00;
+    border: none; 
+    border-radius: 1em; 
+    margin-left: 2em; 
+}
+
+.main-button .main-button-label {
+    font-size: 1.4em;
+    font-weight: 700; 
+}
+

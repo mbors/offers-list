@@ -1,0 +1,30 @@
+.client-data-container {
+    display: flex;
+    align-items: baseline; 
+    margin: 1em; 
+    max-width: 19.4em; 
+}
+
+.client-data-container .customer-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.25em; 
+}
+
+.client-data-container .customer-container .customer-company {
+    font-size: 1.05em;
+    font-weight: 700; 
+    margin-bottom: 0.25em; 
+}
+
+.client-data-container .customer-container .customer-name {
+    font-size: 0.9em; 
+    color: #828282; 
+}
+
+@media(max-width: 1015px){
+    .client-data-container {
+        margin-right: auto;
+        height: 50%; 
+    }
+}

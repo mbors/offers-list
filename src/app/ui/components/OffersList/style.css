@@ -1,0 +1,14 @@
+.offers-container { 
+    margin: 2em 12em 0 12em;     
+}
+
+.offers-container .offers-list-title {
+    font-size: 1.1em;
+    color: #828282; 
+    font-weight: 600; 
+    margin: 0 0 1.2em 0.2em; 
+}
+
+.offers-container .offers-list-container {
+    border: 1px solid rgba(184, 179, 179, 0.56);         
+}

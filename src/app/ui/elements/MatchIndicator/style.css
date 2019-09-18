@@ -1,0 +1,15 @@
+.statusIndicatorContainer .statusIndicator {
+    min-width: 0.7em;
+    min-height: 0.7em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+.statusIndicatorContainer .statusIndicator.active {
+    background-color: #44C600;
+}
+
+.statusIndicatorContainer .statusIndicator.warning {
+    background-color: #FF4141;
+}
+

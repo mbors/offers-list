@@ -1,0 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column; 
+}
